@@ -1,0 +1,157 @@
+{
+  "rubric_version": "mvp-3-consistency-severity",
+  "weights": {
+    "interaction": 25,
+    "rapport": 20,
+    "communication": 20,
+    "structure": 15,
+    "homework": 10,
+    "visual": 10
+  },
+  "labels": [
+    {
+      "name": "Poor",
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Average",
+      "min": 25,
+      "max": 49
+    },
+    {
+      "name": "Good",
+      "min": 50,
+      "max": 74
+    },
+    {
+      "name": "Excellent",
+      "min": 75,
+      "max": 100
+    }
+  ],
+  "criteria": {
+    "interaction": [
+      {
+        "id": "individual_questions",
+        "description": "Asks individual students questions or invites them to contribute"
+      },
+      {
+        "id": "student_responses",
+        "description": "Provides identifiable opportunities for student answers or contributions"
+      },
+      {
+        "id": "follow_up",
+        "description": "Follows up on answers rather than merely asking a question"
+      },
+      {
+        "id": "reasoning",
+        "description": "Invites students to explain their reasoning or demonstrate understanding"
+      },
+      {
+        "id": "sustained_participation",
+        "description": "Maintains interaction across multiple portions of the class, not only the opening"
+      }
+    ],
+    "rapport": [
+      {
+        "id": "welcome",
+        "description": "Welcomes students in the opening"
+      },
+      {
+        "id": "introductions",
+        "description": "Offers introductions, personal check-ins, or an equivalent rapport-building activity"
+      },
+      {
+        "id": "acknowledgement",
+        "description": "Personally acknowledges a student or their contribution"
+      },
+      {
+        "id": "respectful_response",
+        "description": "Uses attentive, respectful and encouraging responses to participants"
+      }
+    ],
+    "communication": [
+      {
+        "id": "clear_instructions",
+        "description": "Provides clear verbal instructions for activities"
+      },
+      {
+        "id": "understandable_explanations",
+        "description": "Explains concepts in understandable, meaningful steps"
+      },
+      {
+        "id": "constructive_feedback",
+        "description": "Provides useful, constructive corrections or feedback"
+      },
+      {
+        "id": "supportive_language",
+        "description": "Uses supportive, polite and encouraging wording during the class"
+      }
+    ],
+    "structure": [
+      {
+        "id": "opening",
+        "description": "Introduces or frames the lesson at the beginning"
+      },
+      {
+        "id": "transitions",
+        "description": "Shows clear transitions between classroom activities"
+      },
+      {
+        "id": "progression",
+        "description": "Follows a coherent sequence of lesson activities"
+      },
+      {
+        "id": "recap",
+        "description": "Reviews or reinforces key concepts"
+      },
+      {
+        "id": "closing",
+        "description": "Provides a closing summary or clear conclusion"
+      }
+    ],
+    "homework": [
+      {
+        "id": "assigned",
+        "description": "Explicitly assigns homework or follow-up practice"
+      },
+      {
+        "id": "actionable",
+        "description": "Gives actionable instructions about what students should do"
+      },
+      {
+        "id": "relevant",
+        "description": "Connects follow-up work to lesson objectives or content"
+      }
+    ],
+    "visual": [
+      {
+        "id": "tutor_visibility",
+        "description": "The tutor is visibly present in relevant sampled frames"
+      },
+      {
+        "id": "background",
+        "description": "Appropriate classroom background or branding is visible where applicable"
+      },
+      {
+        "id": "lighting",
+        "description": "The tutor is adequately lit in observed camera frames"
+      },
+      {
+        "id": "materials",
+        "description": "Displayed teaching materials are readable and relevant"
+      },
+      {
+        "id": "camera_consistency",
+        "description": "No significant tutor camera-visibility problem is evidenced across sampled frames"
+      }
+    ]
+  },
+  "fulfilment_points": {
+    "consistent": 100,
+    "partial": 50,
+    "not_met": 0,
+    "unverified": 0
+  }
+}

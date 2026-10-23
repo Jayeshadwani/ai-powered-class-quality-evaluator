@@ -1,0 +1,1 @@
+"""Class quality assessment MVP."""

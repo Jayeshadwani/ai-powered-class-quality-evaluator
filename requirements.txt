@@ -1,0 +1,16 @@
+# Tested target: Python 3.11. Exact direct-dependency versions (not a fully locked transitive graph).
+fastapi==0.115.12
+uvicorn==0.34.2
+python-multipart==0.0.20
+streamlit==1.45.1
+requests==2.32.3
+# faster-whisper 1.1.1 uses av.open(metadata_errors=...), removed in PyAV 19.
+faster-whisper==1.1.1
+# Explicit wheel pin: avoids Python 3.15 incompatible resolution on macOS ARM64.
+ctranslate2==4.6.2
+av==17.1.0
+openai==1.76.0
+pydantic==2.11.4
+python-dotenv==1.1.0
+pytest==8.3.5
+httpx==0.28.1
